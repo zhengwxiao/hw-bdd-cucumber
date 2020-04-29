@@ -30,7 +30,7 @@ Scenario: restrict to movies with 'PG' or 'R' ratings
   # enter step to "submit" the search form on the homepage
   And I press "Refresh"
   # enter step(s) to ensure that PG and R movies are visible
-  Then I should see all of the movies: PG, R
+  Then I should see all of the movies rated: PG, R
 
 Scenario: all ratings selected
   # see assignment
